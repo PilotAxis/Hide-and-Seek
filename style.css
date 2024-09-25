@@ -37,6 +37,9 @@ body {
     gap: 30px;
     background: linear-gradient(to right, rgba(46, 0, 59, 0.603), rgba(46, 0, 59, 0.603), rgba(46, 0, 59, 0.603));
     padding: 40px 60px;
+    border-bottom: 7px solid #7d0d56;
+    border-left: 7px solid #37128c;
+    border-radius: 25px;
 }
 
 h2 {
@@ -44,6 +47,9 @@ h2 {
     color: rgba(255, 255, 255, 0.74);
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background-color: #7d0d56;
+    border-radius: 10px;
 }
 
 .reset {
@@ -55,6 +61,8 @@ h2 {
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
+    border-radius: 15px;
+    border: 1px solid white;
 }
 
 .reset:focus {
@@ -83,6 +91,8 @@ h2 {
     background: #ffffff2f;
     transform: rotateY(180deg);
     transition: 0.25s;
+    border: none;
+    border-radius: 15px;
 }
 
 .item.boxOpen {
@@ -90,6 +100,8 @@ h2 {
 }
 
 .item::after {
+    border: none;
+    border-radius: 15px;
     content: '';
     position: absolute;
     inset: 0;
